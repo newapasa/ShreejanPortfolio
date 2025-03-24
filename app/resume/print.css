@@ -1,0 +1,100 @@
+@media print {
+    /* Hide elements not needed for print */
+    nav,
+    footer,
+    button,
+    .print\:hidden {
+      display: none !important;
+    }
+  
+    /* Reset background for print */
+    body,
+    html,
+    div {
+      background: white !important;
+      color: black !important;
+      background-image: none !important;
+      box-shadow: none !important;
+      text-shadow: none !important;
+      filter: none !important;
+      -ms-filter: none !important;
+    }
+  
+    /* Ensure content is visible */
+    .text-white,
+    .text-white\/70,
+    .text-white\/80,
+    .text-white\/60 {
+      color: black !important;
+    }
+  
+    /* Adjust borders and backgrounds */
+    .border,
+    .border-white\/10,
+    .bg-white\/10,
+    .bg-white\/5,
+    .bg-black\/40,
+    .bg-black\/20,
+    .backdrop-blur-lg {
+      border-color: #ddd !important;
+      background: white !important;
+    }
+  
+    /* Adjust gradients for print */
+    .bg-gradient-to-r,
+    .bg-gradient-to-br,
+    .from-cyan-400,
+    .to-purple-500,
+    .via-purple-400,
+    .to-pink-500 {
+      background: none !important;
+      color: black !important;
+    }
+  
+    .bg-clip-text,
+    .text-transparent {
+      background: none !important;
+      color: black !important;
+    }
+  
+    /* Layout adjustments */
+    .container {
+      max-width: 100% !important;
+      padding: 0 !important;
+    }
+  
+    /* Page breaks */
+    .page-break-after {
+      page-break-after: always;
+    }
+  
+    .page-break-before {
+      page-break-before: always;
+    }
+  
+    /* Ensure all content is visible */
+    .min-h-screen {
+      min-height: auto !important;
+    }
+  
+    /* Adjust font sizes for print */
+    h1 {
+      font-size: 24pt !important;
+    }
+  
+    h2 {
+      font-size: 18pt !important;
+    }
+  
+    h3 {
+      font-size: 14pt !important;
+    }
+  
+    p,
+    li,
+    span {
+      font-size: 11pt !important;
+    }
+  }
+  
+  
