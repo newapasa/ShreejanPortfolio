@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Shreejan Prajapati',
   description: 'This is my glass effect portfolio.',
   icons: {
-    icon: "/vercel.svg",
+    icon: "/vercel.png",
   },
 }
 
